@@ -1,0 +1,19 @@
+h3 {
+  text-align: center;
+  margin: 50px auto;
+}
+.detail-table {
+  border-collapse: collapse; /* セル間の余白をなくして、枠線が重なるようにする */
+  width: 500px;
+  margin: 0 auto;
+}
+
+.detail-table th, .detail-table td {
+  border: 1px solid black; /* 各セルに黒色の1px幅の枠線を追加 */
+  padding: 8px; /* セル内のコンテンツに8pxのパディングを追加 */
+  text-align: left; /* テキストを左揃えにする */
+}
+
+.detail-table th {
+  background-color: #f2f2f2; /* ヘッダー行に背景色を追加（任意） */
+}
